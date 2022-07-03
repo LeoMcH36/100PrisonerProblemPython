@@ -12,7 +12,6 @@ class Box:
   def __init__(self, outsideNumber, insideNumber):
     self.outsideNumber = outsideNumber
     self.insideNumber = insideNumber
-    self.opened = False
 
 #because outside numbers are ordered we can reduce time complexity by using binary search
 def binary_search(boxes, low, high, insideNumCurrent):
@@ -119,10 +118,11 @@ for loop in range(runs):
       successfulAttempts += 1
   if successfulAttempts == 100:
     wins += 1
-    print("*****************Successful run")
+    #tab'd to make slightly more visible
+    print("\t\t\t\t\t\tSuccessful run")
   else:
     print("UnSuccessful run")
-    
+                
   
 #Useful Stats
 print("Amount of successful runs: ",wins)
