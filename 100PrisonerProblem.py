@@ -107,7 +107,7 @@ for loop in range(runs):
       #on every other attempt, follow the loop
       if attempt > 1: 
         #search the boxes for match
-        insideNumCurrent = boxes.pop(binary_search(boxes, 0, len(boxes), insideNumCurrent)).insideNumber
+        insideNumCurrent = boxes.pop(binary_search(boxes, 0, len(boxes)-1, insideNumCurrent)).insideNumber
         #check success
         if insideNumCurrent == prisoner.number:
           prisoner.success = True
@@ -125,7 +125,8 @@ for loop in range(runs):
                 
   
 #Useful Stats
-print("Amount of successful runs: ",wins)
+print("----------------------------------")
+print("\nAmount of successful runs: ",wins)
 successPercentage = (wins/runs) * 100
 print("Success rate:",successPercentage, "%")
 
