@@ -1,7 +1,7 @@
 # 100PrisonerProblemPython
 Demonstration of solution to 100 Prisoner Problem in Python
 
-After Watching a Veritasium Video after the problem I decided to prove it via code.
+After Watching a Veritasium Video about the problem I decided to prove it via code.
 
 I Decided to do it with Python because I'm starting to really like Python and thought it would be good practice.
 
