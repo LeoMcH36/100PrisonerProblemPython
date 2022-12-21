@@ -1,6 +1,11 @@
 # 100PrisonerProblemPython
 Demonstration of solution to 100 Prisoner Problem in Python
 
+to run use the command < python 100PrisonerProblem.py > in a terminal in the same directory as the file. It simulates 10000 runs
+
+Movitvation
+*********************************************************************************
+
 After Watching a Veritasium Video about the problem I decided to prove it via code.
 
 I Decided to do it with Python because I'm starting to really like Python and thought it would be good practice.
